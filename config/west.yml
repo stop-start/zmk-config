@@ -18,5 +18,6 @@ manifest:
     - name: keyscroll-module
       url: https://github.com/stop-start/keyscroll-module
       revision: main
+      path: modules/keyscroll-module
   self:
     path: config
