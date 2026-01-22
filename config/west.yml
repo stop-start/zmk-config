@@ -4,8 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: stop-start
       url-base: https://github.com/stop-start
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -15,5 +14,6 @@ manifest:
       remote: stop-start
       revision: main
       path: modules/keyscroll-module
+
   self:
     path: config
